@@ -1,0 +1,66 @@
+.page{
+    min-height: 100vh;
+}
+
+.screen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.screen--enter_username,
+.screen--select_map{
+    background: #565656;
+    color: #ffffff;
+}
+
+.screen--game{
+    background: #5f8836;
+}
+
+.canvas{
+    width: 100%;
+    height: 100%;
+}
+
+.maps__container{
+    padding: 10px 0;
+    display: flex;
+    width: 810px;
+    flex-wrap: wrap;
+}
+
+.maps__item{
+    margin: 10px;
+    border-radius: .5rem;
+    border: solid 5px #ffffff;
+    cursor: pointer;
+    min-height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    transition: background .25s ease;
+}
+
+.maps__item h4{
+    opacity: 0;
+    transition: opacity .25s ease, transform .25s ease;
+    transform: translateY(15px);
+}
+
+.maps__item.active h4,
+.maps__item:hover h4{
+    opacity: 1;
+    transform: translateY(0);
+}
+.maps__item.active,
+.maps__item:hover{
+    background: rgba(0, 0, 0, 0.34);
+}
+
+.maps__item > .canvas{
+    position: absolute;
+}
