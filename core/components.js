@@ -9,10 +9,10 @@ class BaseComponent{
     bindEvents() {}
     appendChild(element){}
     render(){
-        const element = render(this.template());
-        this.bindEvents(element);
-        this.appendChild(element);
-        return element;
+        this.element = render(this.template());
+        this.bindEvents(this.element);
+        this.appendChild(this.element);
+        return this.element;
     }
 }
 

@@ -1,6 +1,7 @@
 import {BaseComponent, render} from "../../core/components.js";
 import store from "../store/store.js";
 import {UPDATE_APP_PAGE, UPDATE_APP_SELECT_MAP} from "../store/actions/application.js";
+import {Map} from "../game/Map.js";
 
 class SelectMapItem extends BaseComponent{
     constructor(props) {
@@ -8,6 +9,14 @@ class SelectMapItem extends BaseComponent{
         this.children = props.children || null;
         this.name = props.name;
         this.map = props.map;
+    }
+
+    appendChild(element) {
+        const settings = {
+            width: element.getBoundingClientRect().width
+        };
+        this.generator = new Map({ map: this.map, settings});
+        element.append(this.generator.render());
     }
 
     bindEvents(element) {
@@ -33,11 +42,18 @@ class SelectMap extends BaseComponent{
     constructor(props) {
         super();
         this.maps = props.maps;
+        this.childs = [];
+    }
+
+    renderMap () {
+        this.childs.forEach(child => child.generator.mapRender())
     }
 
     appendChild(element){
         this.maps.forEach(map => {
-            element.append(new SelectMapItem(map).render());
+            const item = new SelectMapItem(map);
+            this.childs.push(item);
+            element.append(item.render());
         });
     }
 

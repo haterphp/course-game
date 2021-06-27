@@ -14,15 +14,16 @@ function UPDATE_APP_SELECT_MAP(map) {
     store.dispatch(actions.UPDATE_SELECT_MAP(map));
 }
 
-function UPDATE_APP_USERNAME (username) {
-    store.dispatch(actions.UPDATE_USERNAME(username));
+function UPDATE_APP_PAUSE(value) {
+    store.dispatch(actions.UPDATE_PAUSE(value));
 }
+
 
 const actions = {
     "UPDATE_MAPS": (maps) =>  ({ type: "UPDATE_APP_MAPS", payload: { maps } }),
     "UPDATE_PAGE": (page) => ({ type: "UPDATE_APP_PAGE", payload: { page } }),
     "UPDATE_SELECT_MAP": (map) => ({ type: "UPDATE_APP_SELECT_MAP", payload: { map } }),
-    "UPDATE_USERNAME": (username) => ({ type: "UPDATE_APP_USERNAME", payload: { username } }),
+    "UPDATE_PAUSE": (pause) => ({ type: "UPDATE_APP_PAUSE", payload: { pause } }),
 }
 
-export { GET_APP_MAPS, UPDATE_APP_PAGE, UPDATE_APP_SELECT_MAP, UPDATE_APP_USERNAME };
+export { GET_APP_MAPS, UPDATE_APP_PAGE, UPDATE_APP_SELECT_MAP, UPDATE_APP_PAUSE };

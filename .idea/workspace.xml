@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eae6924d-753f-4798-85a8-ef969aa7d7d7" name="Default Changelist" comment="" />
+    <list default="true" id="6f6cc386-7036-411f-90a3-03160b9fad07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/SelectMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/SelectMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/applcation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/applcation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +30,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="1u22FwVYoy85o0j16XtO1Zn2nZ6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1uOAUW9Wgj9keFiBf1FuOfdTpgz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,44 +39,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Верстка/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="ReaderModeSettings">
-    <option name="showLigatures" value="false" />
-  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\Курсы\Игра\layout\src\components\base" />
-      <recent name="D:\work\Курсы\Игра\layout\src" />
-      <recent name="D:\work\Курсы\Игра\layout\src\store" />
-      <recent name="D:\work\Курсы\Игра\layout\core\src\modules" />
-      <recent name="D:\work\Курсы\Игра\layout\core\src\store" />
+      <recent name="D:\work\Курсы\Игра\layout\src\game\objects" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eae6924d-753f-4798-85a8-ef969aa7d7d7" name="Default Changelist" comment="" />
-      <created>1623849263124</created>
+      <changelist id="6f6cc386-7036-411f-90a3-03160b9fad07" name="Default Changelist" comment="" />
+      <created>1624526278003</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623849263124</updated>
-      <workItem from="1623849264212" duration="6000" />
-      <workItem from="1623914985587" duration="331000" />
-      <workItem from="1624280085282" duration="6458000" />
-      <workItem from="1624290068145" duration="3602000" />
-      <workItem from="1624358825467" duration="11001000" />
-      <workItem from="1624452574897" duration="18698000" />
+      <updated>1624526278003</updated>
+      <workItem from="1624526279092" duration="1547000" />
+      <workItem from="1624552727150" duration="2354000" />
+      <workItem from="1624555119061" duration="873000" />
+      <workItem from="1624606155266" duration="11707000" />
+      <workItem from="1624635308996" duration="833000" />
+      <workItem from="1624639607375" duration="40000" />
+      <workItem from="1624640194896" duration="548000" />
+      <workItem from="1624699191951" duration="1460000" />
+      <workItem from="1624708942416" duration="8089000" />
+      <workItem from="1624779344104" duration="26621000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
